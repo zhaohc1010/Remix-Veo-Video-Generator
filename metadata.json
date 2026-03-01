@@ -1,0 +1,5 @@
+{
+  "name": "Remix: Veo Video Generator",
+  "description": "A professional interface for generating videos using the Veo 3.1 model via ApiZoo, supporting start/end frame inputs.",
+  "requestFramePermissions": []
+}
