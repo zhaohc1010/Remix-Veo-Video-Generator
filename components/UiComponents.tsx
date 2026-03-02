@@ -60,7 +60,7 @@ export const FileUploadZone: React.FC<{
               className="max-h-full max-w-full object-contain rounded-md shadow-lg" 
             />
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition backdrop-blur-sm">
-              <span className="text-white font-medium bg-black/50 px-3 py-1 rounded-full">Change Image</span>
+              <span className="text-white font-medium bg-black/50 px-3 py-1 rounded-full">更换图片</span>
             </div>
             <div className="absolute bottom-2 right-2 bg-black/60 text-xs px-2 py-1 rounded text-white">
               {file.name}
@@ -71,8 +71,8 @@ export const FileUploadZone: React.FC<{
             <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center mx-auto mb-3 group-hover:bg-brand-500/20 transition">
               <Upload className="text-gray-400 group-hover:text-brand-400 transition" size={24} />
             </div>
-            <p className="text-sm font-medium text-gray-300">Click or Drag to Upload</p>
-            <p className="text-xs text-gray-500 mt-1">PNG, JPG (Max 10MB)</p>
+            <p className="text-sm font-medium text-gray-300">点击或拖拽上传</p>
+            <p className="text-xs text-gray-500 mt-1">PNG, JPG (最大 10MB)</p>
           </div>
         )}
       </div>
@@ -81,7 +81,7 @@ export const FileUploadZone: React.FC<{
           onClick={() => onChange(null)}
           className="text-xs text-red-400 hover:text-red-300 mt-2 underline"
         >
-          Remove Image
+          移除图片
         </button>
       )}
     </div>

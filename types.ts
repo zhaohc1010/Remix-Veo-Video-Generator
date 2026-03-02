@@ -10,6 +10,15 @@ export interface GenerationConfig {
   endFrameParamName: string; // New field for customizable parameter name
 }
 
+export interface GrokGenerationConfig {
+  apiKey: string;
+  prompt: string;
+  model: string;
+  aspect_ratio: string;
+  size: string;
+  startImage: File | null;
+}
+
 export interface ApiResponse {
   id?: string;
   task_id?: string;
